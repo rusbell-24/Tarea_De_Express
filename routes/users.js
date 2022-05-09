@@ -10,6 +10,7 @@ router.get('/', function(
   res.send('respond with a resource');
 });
 
+/*Se agrega la ruta "/cool/" con el mensaje "Eres genial"*/
 router.get('/cool/', function(
     req,
     res,
